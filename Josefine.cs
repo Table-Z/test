@@ -6,7 +6,9 @@ public class Josefine
 
 	public int Age { get; set; }
 
-	public Josefine(int age)
+    public string Name { get; set; }
+
+    public Josefine(int age)
 	{
 		Age = age;
 	}
@@ -14,5 +16,10 @@ public class Josefine
 	public void HaveBirtday()
 	{
 		Age++;
+	}
+
+	public string Birthday()
+	{
+		return "heyy how you doin'";
 	}
 }
