@@ -15,4 +15,9 @@ public class Josefine
 	{
 		Age++;
 	}
+
+	public string Birthday()
+	{
+
+	}
 }
