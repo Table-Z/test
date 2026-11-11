@@ -1,0 +1,18 @@
+﻿using System;
+
+public class Josefine
+{
+	private int _age;
+
+	public int Age { get; set; }
+
+	public Josefine(int age)
+	{
+		Age = age;
+	}
+
+	public void HaveBirtday()
+	{
+		Age++;
+	}
+}
