@@ -6,7 +6,9 @@ public class Josefine
 
 	public int Age { get; set; }
 
-	public Josefine(int age)
+    public string Name { get; set; }
+
+    public Josefine(int age)
 	{
 		Age = age;
 	}
